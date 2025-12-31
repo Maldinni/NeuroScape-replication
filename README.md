@@ -216,7 +216,7 @@ This implementation differs from the original NeuroScape project in both scope a
 
 Key adaptations include reducing the overall scope to allow in-depth study of each pipeline stage, restructuring input and output handling to run entirely on Colab, and replacing closed-source components with open-source alternatives whenever possible. Additionally, several steps of the pipeline were reimplemented or reordered to better reflect the actual execution logic found in the source code, rather than the original documentation.
 
-These changes preserve the conceptual foundation of the original work while enabling practical experimentation, extensibility, and cost-free execution in a constrained computational environment.
+These changes preserve the conceptual foundation of the original work while enabling practical experimentation, extensibility, and cost-free execution in a constrained computational environment. You must checkout  the input and output folders to create if doesn't exist or rename it. 
 
 ---
 
